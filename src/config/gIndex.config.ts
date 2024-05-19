@@ -50,7 +50,7 @@ const config: z.input<typeof Schema_Config> = {
      * You need to create a new folder and share it with the service account
      * Then, copy the folder id and paste it here
      */
-    rootFolder: "5dec1874a160d4c698b92657aaa3e88fcf50f911561c505a5f761b374ee05c3e03d7b766b1b4be870d1117a5969ae7cf",
+    rootFolder: "273166c0367450b21dc5ba17a9090f3882bcdd9aadec7bc86912216db3441a8e41d821e7fb8509844880120da5a885a5",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -193,9 +193,9 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can set it to undefined if you don't want to use it
      */
-    siteName: "NyoPon Index",
+    siteName: "next-gdrive-index",
     siteNameTemplate: "%s - %t",
-    siteDescription: "Index de NyoPon.com",
+    siteDescription: "A Google Drive Index built using Next.js",
 
     /**
      * Site Icon will be used on navbar
@@ -208,8 +208,8 @@ const config: z.input<typeof Schema_Config> = {
      * Both are used on metadata
      * Affects the value of footer
     */
-    siteAuthor: "",
-    twitterHandle: "",
+    siteAuthor: "mbahArip",
+    twitterHandle: "@mbahArip",
 
     /**
      * Next.js Metadata robots object
@@ -227,7 +227,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * @default: false
      */
-    showFileExtension: true,
+    showFileExtension: false,
 
     /**
      * Footer content
